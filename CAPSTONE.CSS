@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* NAVBAR */
+header {
+  background-color: white;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  margin-left: 12px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #ff914d;
+}
+
+/* HERO */
+.hero {
+  background-color: #ff914d;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero button {
+  padding: 10px 16px;
+  border: none;
+  background: white;
+  color: #ff914d;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background: #ffe0cc;
+}
+
+/* SEARCH */
+.search-box {
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.search-box input,
+.search-box select {
+  padding: 8px;
+  flex: 1;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  padding: 8px 14px;
+  background: #ff914d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #ff7a1f;
+}
+
+/* SECTIONS */
+section {
+  padding: 25px 15px;
+}
+
+section h2 {
+  margin-bottom: 15px;
+}
+
+/* CATEGORIES */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.cat {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.cat:hover {
+  background: #ffecd9;
+}
+
+/* RESTAURANTS */
+.restaurants {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.res-card {
+  background-color: white;
+  width: 160px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.res-card:hover {
+  transform: scale(1.04);
+}
+
+.res-card img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+.res-card p {
+  padding: 10px;
+}
+
+/* OFFERS */
+.offers {
+  display: flex;
+  gap: 12px;
+}
+
+.offer {
+  background-color: #ff914d;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.offer:hover {
+  background-color: #ff7a1f;
+}
+
+/* REVIEWS */
+.reviews {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.review {
+  background-color: white;
+  padding: 12px;
+  font-size: 13px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.review:hover {
+  background: #fbe9dc;
+}
+
+/* APP */
+.app {
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.app a {
+  display: inline-block;
+  margin: 5px;
+  background-color: #ff914d;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.app a:hover {
+  background-color: #ff7a1f;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
